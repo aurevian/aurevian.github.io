@@ -1,0 +1,50 @@
+<div id="particles-js" aria-hidden="true">
+  <div class="header">
+
+      {% if site.profile_photo %}
+      <div class="profile-image-wrapper">
+        <img
+          src="{{ site.profile_photo | relative_url }}"
+          alt="{{ site.username }}"
+          class="profile-image"
+        >
+      </div>
+      {% endif %}
+
+      <h1>
+        <span class="site-title">{{ site.username }}</span>
+        <span class="site-description">{{ site.user_title }}</span>
+      </h1>
+      
+      <div class="header-icons">
+        {% if site.email %}
+        <a aria-label="Send email" href="mailto:{{ site.email }}">
+          <i class="icon fa fa-envelope"></i>
+        </a>
+        {% endif %}
+
+        {% if site.linkedin_username %}
+        <a aria-label="My LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <i class="icon fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+        {% endif %}
+
+        {% if site.github_username %}
+        <a aria-label="My Github" target="_blank" rel="noopener noreferrer" href="https://github.com/{{ site.github_username }}">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        {% endif %}
+
+        <a aria-label="My Blog" target="_blank" rel="noopener noreferrer" href="{{ '/blog/' | relative_url }}">
+          <i class="icon fa fa-book" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="header-links">
+        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+      </div>
+      
+  </div>
+
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>

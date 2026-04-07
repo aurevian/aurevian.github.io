@@ -1,0 +1,18 @@
+# Site settings
+title: Eren Bozkurt
+description: Quantum Computing Open-Source Documentation
+lang: en
+# Open Graph / Twitter Card image (site root path). Set site url for correct absolute URLs when sharing.
+social_image: /assets/favicon.png
+og_locale: en_US
+theme_color: "#1a222c"
+# User settings
+username: Eren Bozkurt
+user_title: Quantum Machine Learning Researcher
+user_description: Hello, I’m Eren, based in the United Kingdom. After many years working in data science, I moved to the UK to develop my career further through academic research. Today, my work sits at the intersection of quantum computing, quantum machine learning, and mathematical modelling, with a strong focus on quantum encoding, variational circuits, and research-driven open-source development. Through this platform, I share the ideas, methods, and technical projects that shape my work.
+email: erns.bzkrt@gmail.com
+profile_photo: /assets/img/profile.jpg
+linkedin_username: ernsbzkrt
+github_username:  aurevian
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
+

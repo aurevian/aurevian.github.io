@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="particles-js">
+      {{ content }}
+    </div>
+
+    <script src="{{ '/assets/js/particles.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/app.js' | relative_url }}"></script>
+  </body>
+</html>

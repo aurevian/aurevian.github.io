@@ -1,0 +1,27 @@
+# Expertise section below the hero (icons use Devicon classes bundled in main.css).
+intro_title: My Expertise
+
+sections:
+  - title: Quantum Computing 
+    body: >-
+     Quantum computing is at the centre of my current research. I work primarily in Python, using frameworks such as Qiskit and PennyLane. alongside libraries like NumPy, SciPy, scikit-learn, and PyTorch to develop quantum circuits, quantum algorithms, encoding strategies, and mathematically grounded computational models.
+    icons:
+      - text:Qiskit
+      - text:PennyLane
+
+  - title: Code
+    body: >-
+      Python is at the core of my day-to-day research and development software language, providing the flexibility I need for rapid prototyping, scientific computing, and model development. 
+      When computational efficiency becomes critical and performance-intensive components need to be optimized, I can turn to C++ to build faster and more robust solutions. 
+    icons:
+    - devicon-python-plain colored
+    - devicon-r-plain colored
+    - devicon-cplusplus-plain colored
+
+  - title: Tools
+    body: >-
+      I am proficient in using various development tools and platforms, including Git for version control, Linux for system administration, and Docker for containerization.
+    icons:
+      - devicon-git-plain colored
+      - devicon-linux-plain colored
+      - devicon-docker-plain colored
