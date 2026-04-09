@@ -33,16 +33,26 @@ permalink: /blog/
     </div>
   </section>
 
-  <section class="blog-docs-section">
-    <h2 class="blog-docs-title">Open-Source Documentation</h2>
-    <div class="blog-docs-divider"></div>
+  <section class="blog-docs-section" style="text-align: center; margin-top: 3rem;">
+    <h2 class="blog-docs-title" style="color: #ffffff; margin-bottom: 0.75rem;">
+      Open-Source Documentation
+    </h2>
 
-    <div class="blog-doc-card">
-      <p class="blog-doc-series-title">
+    <div
+      class="blog-docs-divider"
+      style="width: 100%; max-width: 720px; height: 1px; background: rgba(255,255,255,0.18); margin: 0 auto 1.5rem auto;"
+    ></div>
+
+    <div class="blog-doc-card" style="max-width: 760px; margin: 0 auto;">
+      <p class="blog-doc-series-title" style="color: #ffffff; margin-bottom: 0.8rem;">
         Data–Output Oriented Problem Typology in Quantum Machine Learning
       </p>
 
-      <a class="blog-doc-chapter-link" href="{{ '/blog/chapter1/' | relative_url }}">
+      <a
+        class="blog-doc-chapter-link"
+        href="{{ '/blog/chapter1/' | relative_url }}"
+        style="color: #ffffff; text-decoration: none; font-weight: 600;"
+      >
         Chapter 1
       </a>
     </div>
