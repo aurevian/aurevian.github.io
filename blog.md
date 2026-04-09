@@ -34,14 +34,17 @@ permalink: /blog/
   </section>
 
   <section class="blog-docs-section">
+    <h2 class="blog-docs-title">Open-Source Documentation</h2>
     <div class="blog-docs-divider"></div>
-    <h2>Open-Source Documentation</h2>
 
-    <div class="blog-doc-item">
-      <h3>Data–Output Oriented Problem Typology in Quantum Machine Learning</h3>
-      <ul>
-        <li><a href="{{ '/blog/chapter1/' | relative_url }}">Chapter 1</a></li>
-      </ul>
+    <div class="blog-doc-card">
+      <p class="blog-doc-series-title">
+        Data–Output Oriented Problem Typology in Quantum Machine Learning
+      </p>
+
+      <a class="blog-doc-chapter-link" href="{{ '/blog/chapter1/' | relative_url }}">
+        Chapter 1
+      </a>
     </div>
   </section>
 </div>
