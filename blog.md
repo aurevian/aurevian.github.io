@@ -30,6 +30,11 @@ permalink: /blog/
       <p>
         Below, you can find the writings I have shared so far.
       </p>
+
+      <h2>Writings</h2>
+      <ul>
+        <li><a href="{{ '/blog/chapter1/' | relative_url }}">Chapter 1</a></li>
+      </ul>
     </div>
   </section>
 </div>
