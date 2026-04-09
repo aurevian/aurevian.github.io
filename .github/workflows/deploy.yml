@@ -40,6 +40,8 @@ jobs:
 
       - name: Build Chapter1 with MyST
         working-directory: quantum-opensource-documentation/Chapter1
+        env:
+          BASE_URL: /blog/chapter1
         run: |
           myst build --html
 
