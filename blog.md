@@ -30,8 +30,15 @@ permalink: /blog/
       <p>
         Below, you can find the writings I have shared so far.
       </p>
+    </div>
+  </section>
 
-      <h2>Writings</h2>
+  <section class="blog-docs-section">
+    <div class="blog-docs-divider"></div>
+    <h2>Open-Source Documentation</h2>
+
+    <div class="blog-doc-item">
+      <h3>Data–Output Oriented Problem Typology in Quantum Machine Learning</h3>
       <ul>
         <li><a href="{{ '/blog/chapter1/' | relative_url }}">Chapter 1</a></li>
       </ul>
