@@ -53,7 +53,7 @@ permalink: /blog/
         href="{{ '/blog/chapter1/' | relative_url }}"
         style="color: #ffffff; text-decoration: none; font-weight: 600;"
       >
-        Chapter 1
+        1. Data–Output Oriented Problem Typology in Quantum Machine Learning
       </a>
     </div>
   </section>
