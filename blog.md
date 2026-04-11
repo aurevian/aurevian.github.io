@@ -44,13 +44,13 @@ permalink: /blog/
     ></div>
 
     <div class="blog-doc-card" style="max-width: 760px; margin: 0 auto;">
-     <p class="blog-doc-series-title" style="color: #ffffff; margin-bottom: 0.8rem;">
+     <p class="blog-doc-series-title" style="color: #ffffff; margin-bottom: 0.8rem; font-weight: 700;">
         Section 1 : Data–Output Oriented Problem Typology in Quantum Machine Learning
       </p>
       <a
         class="blog-doc-chapter-link"
         href="{{ '/blog/chapter1/' | relative_url }}"
-        style="color: #ffffff; text-decoration: none; font-weight: 600;"
+        style="color: #ffffff; text-decoration: none; font-weight: 400;"
       >
         1. Data–Output Oriented Problem Typology in Quantum Machine Learning
       </a>
